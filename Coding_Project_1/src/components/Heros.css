@@ -1,0 +1,37 @@
+.hero-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.hero-card {
+  width: 200px; /* You can set this to the width you prefer */
+  border: 1px solid #ddd; /* A light grey border */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Ensures nothing spills out of the card */
+  text-align: center; /* Centers text */
+  padding: 15px; /* Spacing inside the card */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* A subtle shadow */
+  transition: transform 0.2s; /* Animation for hover state */
+}
+
+.hero-card:hover {
+  transform: translateY(-5px); /* Raises the card slightly on hover */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Darker shadow on hover */
+}
+
+.hero-card img {
+  max-width: 100%; /* Makes the image responsive to the card's width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.hero-card h2 {
+  margin: 10px 0; /* Spacing above and below the hero name */
+}
+
+.hero-card p {
+  margin: 5px 0; /* Spacing between paragraphs */
+}

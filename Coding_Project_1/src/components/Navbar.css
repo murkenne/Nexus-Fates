@@ -1,0 +1,19 @@
+/* Navbar.css */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between; /* Align to the start or use 'center' to center them */
+  gap: 7px; /* Creates space between the links */
+}
+
+#navbar a {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px; /* Adds space to the right of each link */
+  /* Add other styling as needed */
+}
+
