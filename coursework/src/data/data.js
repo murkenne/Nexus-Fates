@@ -50,7 +50,7 @@ export const data = [
     name: 'Marik',
     height: '6\'2',
     weight: 200 ,
-    affiliation: "Humunculus",
+    affiliation: "Homunculus",
     stance: 'Villainous',
     picture: "https://cdnb.artstation.com/p/assets/images/images/020/152/821/large/richard-reyes-fma-greed-final.jpg?1566584430"
 },
@@ -68,7 +68,7 @@ export const data = [
     name: 'Juggernaut',
     height: '8\'2',
     weight: 900,
-    affiliation: "Humunculus",
+    affiliation: "Homunculus",
     stance: 'Villainous',
     picture: "https://cdna.artstation.com/p/assets/images/images/015/785/168/large/andrew-domachowski-juggernaut-rox-03.jpg?1549631414"
 },
@@ -105,7 +105,7 @@ export const data = [
     name: 'Venom',
     height: 'varies',
     weight: 'unknown',
-    affiliation: "Humunculus",
+    affiliation: "Homunculus",
     stance: 'Villainous',
     picture: "https://images.immediate.co.uk/production/volatile/sites/3/2018/09/Venom-Movie-Symbiote-9cba633.jpg?quality=90&webp=true&crop=188px,0px,1051px,700px&resize=1400,934"
 },
@@ -150,7 +150,7 @@ export const data = [
     name: 'Carnage',
     height: 'varies',
     weight: 'unknown',
-    affiliation: "Humunculus",
+    affiliation: "Homunculus",
     stance: 'Villainous',
     picture: "https://m.media-amazon.com/images/M/MV5BZDUxODFhYTItZmQ2ZC00YWRiLTliYzItYTlhNGVkYWJlY2M0XkEyXkFqcGdeQWpnYW1i._V1_QL75_UX500_CR0,0,500,281_.jpg"
 },
@@ -247,7 +247,7 @@ export const data = [
 {
     id: 26,
     name: 'Chris Redfield',
-    height: '5\'11',
+    height: '6\'1',
     weight: 210,
     affiliation: "FOX HOUND",
     stance: 'Heroic',
@@ -307,6 +307,53 @@ export const data = [
     stance: '',
     picture: ""
 },*/
+/*{
+    id: ,
+    name: '',
+    height: '',
+    weight: ,
+    affiliation: "",
+    stance: '',
+    picture: ""
+},*/
 
+];
+
+export const affiliations = [
+    {
+        id: 1,
+        name:'Tekken Resistance',
+        afilliation: 'Tekken Resistance',
+        img: 'https://s-media-cache-ak0.pinimg.com/736x/30/0a/dc/300adc9acee75e55c296835e0ea4b7c7.jpg'
+
+    },
+     {
+        id: 2,
+        name: 'Umbrella Corporation',
+        afilliation: 'Umbrella Corporation',
+        img: 'https://wallpaperaccess.com/full/492066.jpg'
+
+    },
+     {
+        id: 3,
+        name: 'G Corporation',
+        afilliation: 'G Corporation',
+        img: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a26ad37b-cdd7-43da-b0de-7c269083e4d2/de2req2-3f006aed-7b16-4ddb-943c-5e1bd2a4371a.png/v1/fill/w_920,h_538,strp/tekken_g_corporation_logo_render_by_bleucentenaire_de2req2-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTM4IiwicGF0aCI6IlwvZlwvYTI2YWQzN2ItY2RkNy00M2RhLWIwZGUtN2MyNjkwODNlNGQyXC9kZTJyZXEyLTNmMDA2YWVkLTdiMTYtNGRkYi05NDNjLTVlMWJkMmE0MzcxYS5wbmciLCJ3aWR0aCI6Ijw9OTIwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.YY2VpK70MHsMabQFAE-GSRqxoycPW9g11qGgrK8Ysj0'
+
+    },
+     {
+        id: '4',
+        name: 'Homunculus',
+        afilliation: 'Homunculus',
+        img: 'https://i.pinimg.com/originals/f9/4a/0d/f94a0d607569d8c087a71a4672271314.jpg'
+
+    },
+     {
+        id: '5',
+        name: 'FOX HOUND',
+        afilliation: 'FOX HOUND',
+        img: 'https://cdn.wallpapersafari.com/71/44/uqHQfY.png'
+
+    },
 ];
 
